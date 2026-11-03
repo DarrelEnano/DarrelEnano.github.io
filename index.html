@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Darrel Enano | Mobile &amp; Backend Developer</title>
+<meta name="description" content="Darrel Enano is a React Native and backend developer with 9+ years of experience, available for part-time work with US teams.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --paper: #f7f5f0;
+    --surface: #ffffff;
+    --ink: #1d2428;
+    --muted: #5d676d;
+    --line: #dcd8ce;
+    --accent: #0f6b66;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #14191c;
+      --surface: #1c2327;
+      --ink: #edeae3;
+      --muted: #a3adb2;
+      --line: #323b40;
+      --accent: #5cc4bc;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  header { padding: 88px 0 56px; }
+  .role {
+    margin: 0 0 14px;
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 650;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 0 0 20px;
+    font: 600 clamp(44px, 9vw, 72px)/1.04 Georgia, "Times New Roman", serif;
+    letter-spacing: -.02em;
+  }
+  .lede { max-width: 640px; margin: 0 0 28px; font-size: 21px; line-height: 1.5; }
+  .cta {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background: var(--accent);
+    color: var(--paper);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .avail { margin: 20px 0 0; color: var(--muted); font-size: 15px; }
+
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
+  h2 { margin: 0 0 24px; font: 600 28px/1.2 Georgia, "Times New Roman", serif; }
+  h3 { margin: 0; font-size: 19px; line-height: 1.35; }
+
+  .project {
+    margin-bottom: 18px;
+    padding: 24px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+  .project:last-child { margin-bottom: 0; }
+  .tag { margin: 2px 0 14px; color: var(--muted); font-size: 14px; }
+  .project dl { margin: 0; }
+  .project dt { font-size: 14px; font-weight: 650; }
+  .project dd { margin: 0 0 10px; color: var(--muted); }
+  .project dd:last-child { margin-bottom: 0; }
+
+  .skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 32px; margin: 0; }
+  .skills dt { font-weight: 650; }
+  .skills dd { margin: 0; color: var(--muted); }
+
+  .job { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 4px 24px; margin-bottom: 26px; }
+  .job:last-child { margin-bottom: 0; }
+  .when { color: var(--muted); font-size: 15px; }
+  .job p { margin: 4px 0 0; color: var(--muted); }
+  .org { font-weight: 400; color: var(--muted); }
+
+  footer { padding: 44px 0 72px; border-top: 1px solid var(--line); }
+  footer p { margin: 0 0 8px; }
+  footer .small { color: var(--muted); font-size: 15px; }
+
+  @media (max-width: 620px) {
+    body { font-size: 16px; }
+    .wrap { padding: 0 16px; }
+    header { padding: 56px 0 40px; }
+    .lede { font-size: 19px; }
+    .project { padding: 18px; }
+    .skills { grid-template-columns: 1fr; }
+    .job { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="role">Mobile &amp; Backend Developer</p>
+    <h1>Darrel Enano</h1>
+    <p class="lede">I build and fix React Native apps and the APIs behind them. I have 9+ years of experience in software development, including apps released on the App Store and Google Play.</p>
+    <a class="cta" href="mailto:darrel0716@gmail.com">Email me</a>
+    <p class="avail">Available part-time, 15&ndash;20 hrs/week. Based in the Philippines, with evening hours that overlap US Eastern mornings.</p>
+  </header>
+
+  <section aria-labelledby="work">
+    <h2 id="work">Selected work</h2>
+
+    <article class="project">
+      <h3>Employee mobile app for iOS and Android</h3>
+      <p class="tag">Private company &middot; React Native, Expo, Laravel, SQL</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Employees needed one app for their documents, cash advances, reimbursements, medical records, events, and real-time notifications.</dd>
+        <dt>What I did</dt>
+        <dd>Worked across the mobile app and Laravel API as part of the development team, shipping features and store releases. Fixed production crashes and an Android launch freeze, and replaced broad media permissions with the Android photo picker to meet Google Play policy.</dd>
+        <dt>Result</dt>
+        <dd>Version 2.25 is live on the App Store and Google Play. The permission change cleared a Play Store rejection, and the office can now switch on a maintenance screen from the server without an app release.</dd>
+      </dl>
+    </article>
+
+    <article class="project">
+      <h3>Restoring iOS push notifications in production</h3>
+      <p class="tag">Private company &middot; Expo Push, Apple Push Notification service</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Push notifications stopped reaching iOS devices, even though the send requests were still being accepted.</dd>
+        <dt>What I did</dt>
+        <dd>Sent test pushes and checked the delivery receipts, which traced the failure to an invalid Apple signing key rather than the devices or app code. Replaced the key with one valid for production.</dd>
+        <dt>Result</dt>
+        <dd>Delivery was restored for existing installs without a new build or app store review.</dd>
+      </dl>
+    </article>
+
+    <article class="project">
+      <h3>API access control hardening</h3>
+      <p class="tag">Private company &middot; Laravel, PHP</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Backend features holding personal records needed consistent checks on who could access each one.</dd>
+        <dt>What I did</dt>
+        <dd>Reviewed endpoints across the API, added ownership checks to record lookups, and added role-based middleware where access depends on account type. Also added single-use, rate-limited email codes to account flows.</dd>
+        <dt>Result</dt>
+        <dd>The changes are live in production, with record access tied to the logged-in user across those features.</dd>
+      </dl>
+    </article>
+
+    <article class="project">
+      <h3>Travel document scanner</h3>
+      <p class="tag">Private company &middot; Document data extraction, Laravel API</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Document details had to be read accurately from photos and PDFs of two different versions of a travel document.</dd>
+        <dt>What I did</dt>
+        <dd>Built extraction for the document number, dates, and place of issue, using the machine-readable code to cross-check the number and dates.</dd>
+        <dt>Result</dt>
+        <dd>Unclear fields are left blank instead of guessed, and files that aren't the expected document are rejected instead of returning partial details.</dd>
+      </dl>
+    </article>
+
+    <article class="project">
+      <h3>Fund Tracker</h3>
+      <p class="tag">Personal project &middot; Node.js, SQLite, JavaScript</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A group sharing a fund needed a simple way to split deposits equally and see current balances.</dd>
+        <dt>What I did</dt>
+        <dd>Built a local web app with no npm dependencies, using Node's built-in SQLite and HTTP modules. Money is stored in whole centavos so split amounts always add back up to the exact total.</dd>
+        <dt>Result</dt>
+        <dd>It runs from a simple launcher on Windows or Mac, with one-click database backup and CSV history that opens cleanly in Excel.</dd>
+      </dl>
+    </article>
+
+    <article class="project">
+      <h3>Healthcare apps for members and doctors</h3>
+      <p class="tag">Intellicare &middot; React Native, ASP.NET C#, MS SQL</p>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Members and doctors needed mobile access to benefits, requests, and billing.</dd>
+        <dt>What I did</dt>
+        <dd>Developed React Native apps including Intellicare Agora and Avega Agora, along with supporting web APIs in ASP.NET C#.</dd>
+        <dt>Result</dt>
+        <dd>Members could view digital IDs and benefits, find accredited facilities and doctors, and request consultations. Doctors could receive requests, submit e-billing, and email prescriptions, referrals, and medical certificates.</dd>
+      </dl>
+    </article>
+  </section>
+
+  <section aria-labelledby="skills">
+    <h2 id="skills">Skills</h2>
+    <dl class="skills">
+      <div><dt>Mobile</dt><dd>React Native, Expo, iOS and Android releases, push notifications</dd></div>
+      <div><dt>Backend</dt><dd>PHP, Laravel, CodeIgniter, ASP.NET C#, Node.js, REST APIs</dd></div>
+      <div><dt>Data</dt><dd>MySQL, MS SQL, SQLite, stored procedures, ERDs</dd></div>
+      <div><dt>Delivery</dt><dd>Git, requirements gathering, QA and UAT support, documentation, production support</dd></div>
+    </dl>
+  </section>
+
+  <section aria-labelledby="experience">
+    <h2 id="experience">Experience</h2>
+
+    <div class="job">
+      <div class="when">Sep 2025 &ndash; Present</div>
+      <div>
+        <h3>Mobile/Web Developer <span class="org">&middot; Private company</span></h3>
+        <p>Develop an employee mobile app, its Laravel API, and related web admin features.</p>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Aug 2023 &ndash; Aug 2025</div>
+      <div>
+        <h3>Application Specialist II (Team Leader) <span class="org">&middot; House of Investments</span></h3>
+        <p>Led application development work across the software lifecycle, from requirements and design through deployment and maintenance.</p>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Jan 2023 &ndash; Jun 2023</div>
+      <div>
+        <h3>Senior Software Engineer <span class="org">&middot; Asia United Bank</span></h3>
+        <p>Worked with managers, users, and QA on project enhancements, end-to-end testing, and post-production testing.</p>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Jul 2022 &ndash; Dec 2022</div>
+      <div>
+        <h3>Senior Software Engineer <span class="org">&middot; ObjectBright</span></h3>
+        <p>Built a React Native app to replace a client's older application and supported their legacy systems.</p>
+      </div>
+    </div>
+
+    <div class="job">
+      <div class="when">Dec 2016 &ndash; Jun 2022</div>
+      <div>
+        <h3>Senior Software Developer / Mobile Developer <span class="org">&middot; Intellicare</span></h3>
+        <p>Developed member and doctor mobile apps in React Native, web APIs in ASP.NET C#, and supported legacy Visual FoxPro applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="education">
+    <h2 id="education">Education</h2>
+    <p style="margin:0"><strong>BS Computer Science</strong>, University of Caloocan City, 2016</p>
+  </section>
+
+  <footer>
+    <p><strong>Have an app that needs work?</strong> Email me at <a href="mailto:darrel0716@gmail.com">darrel0716@gmail.com</a>.</p>
+    <p class="small">Cavite, Philippines</p>
+  </footer>
+
+</div>
+</body>
+</html>
